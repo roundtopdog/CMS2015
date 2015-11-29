@@ -27,6 +27,7 @@ header {
 .contentSection {
 	margin: 0px 40px;
 }
+
 #wrapper {
 	background-color: white;
 	margin-top: 40px;
@@ -61,7 +62,6 @@ header {
 
 nav {
 	text-transform: uppercase;
-	
 }
 
 nav ul li {
@@ -74,7 +74,7 @@ nav ul {
 	text-align: right;
 }
 
- a:link {
+a:link {
     text-decoration: none; 
     color: #709390;
 }
@@ -169,10 +169,6 @@ hr {
 	margin: 0 40px 40px 40px !important;
 	padding: 40px 0 !important;
 }
-/*
-.fpca {
-	padding-left: 50px !important;
-}*/
 
 .fpca p {
 	max-width: 210px;
@@ -204,7 +200,6 @@ hr {
 	margin: 10px 35px 10px 0;
 	border: 1px solid #d4d4d4;
 	padding: 3px;
-
 }
 
 .contentThumb > p {

@@ -5,9 +5,9 @@
 					<?php
 					    $args = array( 'numberposts' => '5');
 						$recent_posts = wp_get_recent_posts( $args );
-						foreach( $recent_posts as $recent ){
-							echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
-						}
+							foreach( $recent_posts as $recent ){
+								echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
+							}
 					?>
 				</ul> 
 			</div><!-- end row -->
@@ -25,9 +25,9 @@
 					<?php
 					    $args = array( 'order' => 'asc');
 						$recent_posts = wp_get_recent_posts( $args );
-						foreach( $recent_posts as $recent ){
-							echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
-						}
+							foreach( $recent_posts as $recent ){
+								echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
+							}
 					?>
 				</ul>			
 			</div>

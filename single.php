@@ -33,17 +33,19 @@
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						<div class="post">
 							<h3 class="storytitle" id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark"></a></h3>
-						<div class="meta postInfo"><?php _e("Posted by "); ?> <strong><?php the_author_link() ?></strong> on <?php the_date() ?> in <?php the_category(',') ?> </div>
-						<div class="storycontent">
-						<div class="contentThumb">
-							<?php the_post_thumbnail( 'thumbnail' ); ?>
-						</div>
-							<?php the_content(__('(more...)')); ?>
-							<?php comments_template(); ?>
-						</div>
+							<div class="meta postInfo">
+								<?php _e("Posted by "); ?> <strong><?php the_author_link() ?></strong> on <?php the_date() ?> in <?php the_category(',') ?> 
+							</div>
+							<div class="storycontent">
+								<div class="contentThumb">
+									<?php the_post_thumbnail( 'thumbnail' ); ?>
+								</div>
+								<?php the_content(__('(more...)')); ?>
+								<?php comments_template(); ?>
+							</div>
 						</div>
 							<?php endwhile; else: ?>
-								<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+							<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 					<!-- end the loop -->
 						<?php endif; ?>
 				</div><!-- end large 12 -->

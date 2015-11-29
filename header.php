@@ -39,8 +39,8 @@
 	<link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/lightslider.js">                 
 		<!-- required jquery/1.11.0 -->
 	<script src="<?php echo get_template_directory_uri(); ?>/js/lightslider.js" type="text/javascript"></script>
-	<link type="text/javascript" href="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.0.js">
-	<link type="text/javascript" href="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.0.min.js">
+	<!-- <link type="text/javascript" href="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.0.js">
+	<link type="text/javascript" href="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.0.min.js"> -->
 
 </head>
 <body>
@@ -48,13 +48,12 @@
 
 <div class="row searchBar">
 	<div class="large-12 colums">
-		<!-- search form goes here -->
 
-	<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
-<div><input type="text" size="18" placeholder="Search This Site...... " value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" />
-<!-- <input type="submit" id="searchsubmit" value="Search" class="btn" /> -->
-</div>
-</form>
+		<!-- search form goes here -->
+		<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
+			<div><input type="text" size="18" placeholder="Search This Site...... " value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" />
+			</div>
+		</form>
 	</div><!-- end large col right -->
 </div><!-- end serachBar -->
 

@@ -36,9 +36,7 @@
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
    
-   
 <script>
-alert();
       $(document).foundation();
      $("#lightSlider").lightSlider();
     $("#lightSlider").lightSlider({
@@ -93,16 +91,10 @@ alert();
         onBeforePrevSlide: function (el) {}
     });
 
-
-
-
     </script>
 
- <script type="text/javascript">
-      $(document).ready(function() {
-        
-
-         
+    <script type="text/javascript">
+         $(document).ready(function() {    
       });
     </script>
 

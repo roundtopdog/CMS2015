@@ -18,12 +18,7 @@ function add_google_fonts_kreon_droidsans(){
 	}
 add_action( 'wp_enqueue_scripts', 'add_google_fonts_kreon_droidsans' );
 
-//<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'> )
-
-// <!-- add fonts -->
-// 	<link href='https://fonts.googleapis.com/css?family=Kreon:400,300' rel='stylesheet' type='text/css'>
-// 	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-/**
+/*
  * Register our sidebars and widgetized areas.
  *
  */
@@ -102,8 +97,5 @@ function arphabet_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'arphabet_widgets_init' );
-
-
-
 
 ?>

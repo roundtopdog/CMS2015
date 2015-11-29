@@ -62,32 +62,29 @@
 
 		<div class="large-8 columns">
 			<div class="frontPageImages">
-				    <ul class="somelightSlider">
-					      <li>
-					          <h3>First Slide</h3>
-					          <p>Lorem ipsum Cupidatat quis pariatur anim.</p>
-					      </li>
-					      <li>
-					          <h3>Second Slide</h3>
-					          <p>Lorem ipsum Excepteur amet adipisicing fugiat velit nisi.</p>
-					      </li>
+			    <ul class="somelightSlider">
+			      	<li>
+			          	<h3>First Slide</h3>
+			          	<p>Lorem ipsum Cupidatat quis pariatur anim.</p>
+			      	</li>
+			      	<li>
+			          	<h3>Second Slide</h3>
+			          	<p>Lorem ipsum Excepteur amet adipisicing fugiat velit nisi.</p>
+			      	</li>
 
-					      <li>
-					          <h3>Third Slide</h3>
-					          <p>Lorem ipsum Excepteur amet adipisicing fugiat velit nisi.</p>
-					      </li>
+			      	<li>
+			          	<h3>Third Slide</h3>
+			          	<p>Lorem ipsum Excepteur amet adipisicing fugiat velit nisi.</p>
+			      	</li>
 
-					      <li>
-					          <h3>Fourth Slide</h3>
-					          <p>Lorem ipsum Excepteur amet adipisicing fugiat velit nisi.</p>
-					      </li>
-				    </ul>
+			      	<li>
+			          	<h3>Fourth Slide</h3>
+			          	<p>Lorem ipsum Excepteur amet adipisicing fugiat velit nisi.</p>
+			      	</li>
+			    </ul>
 			</div>
-			
 		</div>
-
 	</div><!-- end row -->
 </section>
-
 
 <?php get_footer(); ?>
