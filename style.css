@@ -1,0 +1,216 @@
+/*
+Theme Name: CMS2015
+Theme URI: http://www.wilfredrthibodeau.com;
+Author: Will Thibodeau
+Author URI: http://www.wilfredrthibodeau.com
+Description: My first theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: wordpress themes, 
+Text Domain: CMS2015
+
+*/
+.footerText {
+	text-align: right;
+	margin-top: 80px;
+}
+
+header {
+	margin: 0 40px;
+}
+
+.headerFirst {
+	margin-top: 50px;
+}
+
+.contentSection {
+	margin: 0px 40px;
+}
+#wrapper {
+	background-color: white;
+	margin-top: 40px;
+	overflow: none;
+}
+
+.sidebarSection {
+	
+	padding-top: 40px;
+}
+
+.leftContentSection {
+	padding: 40px 0 !important;
+	border-right: 1px solid #F2F2F2;
+}
+
+.leftContentSection h2 {
+	margin: 0 0 20px 0;
+}
+
+.row .sidebarContent {
+	margin-left: 20px !important;
+}
+
+.logo h6 {
+	color: #709390;
+	font-size: .75em; 
+	position: relative;
+	top: -20px;
+	left: 50px;
+}
+
+nav {
+	text-transform: uppercase;
+	
+}
+
+nav ul li {
+	display: inline;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+nav ul {
+	text-align: right;
+}
+
+ a:link {
+    text-decoration: none; 
+    color: #709390;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #C5C5C5;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #C5C5C5;
+}
+
+.menu a:active {
+    color: #709390;
+}
+
+.MainNavMenu {
+	margin: 20px 0 ;
+}
+
+[type="search"] {
+ margin-bottom: 0px;
+}
+
+.footerWrapper {
+	padding: 40px 40px 10px 40px;
+	background-color: #f2f2f2;
+	margin-bottom: 40px;
+}
+
+.miniHeader {
+	margin: 0 40px;
+}
+
+.mainContentSection {
+	margin: 0 40px;
+}
+
+.indexHeader {
+	text-align: center;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f2f2f2+50,ffffff+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ffffff 0%, #f2f2f2 50%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #ffffff 0%,#f2f2f2 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #ffffff 0%,#f2f2f2 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+hr {
+	color: #f2f2f2 !important;
+	margin: 2px !important;
+}
+
+.pComments {
+	margin: 2px;
+	border-top: 1px solid #F2F2F2;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.rowAfterpComments {
+	padding:0px  17px 40px 17px;	
+}
+
+.postThumbContent {
+	float: left;
+}
+
+.indexHeader h2 {
+	line-height: 100%;
+}
+
+.fpMiniHeader {
+	margin: 0px;
+}
+
+.imageSlider {
+	padding: 0px !important;
+}
+
+.textUnderSlider {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.frontPageContentArea {
+	margin: 0 40px !important;
+}
+
+.frontPageContentLower {
+	margin: 0 40px 40px 40px !important;
+	padding: 40px 0 !important;
+}
+/*
+.fpca {
+	padding-left: 50px !important;
+}*/
+
+.fpca p {
+	max-width: 210px;
+}
+
+.frontPageImages {
+	float: right;
+	padding-right: 40px;
+}
+
+.searchBar {
+	float: right;
+}
+
+.postInfo {
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+.nextRowAfterComments {
+	padding-right: 0px !important;
+	
+}
+
+.contentThumb {
+	float: left;
+	margin: 10px 35px 10px 0;
+	border: 1px solid #d4d4d4;
+	padding: 3px;
+
+}
+
+.contentThumb > p {
+	padding-right: 20px !important;
+}
+
+.storyContent {
+	padding-right: 40px;
+}
